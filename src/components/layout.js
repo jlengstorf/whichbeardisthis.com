@@ -55,6 +55,10 @@ export default ({ children }) => (
           + * {
             margin-top: 1rem;
           }
+
+          h2 + p {
+            margin-top: 0.5rem;
+          }
         }
 
         html,
