@@ -21,6 +21,29 @@ export default ({ children }) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
+      <meta property="og:url" content="https://whichbeardisthis.com/" />
+      <meta property="og:title" content="Which beard is this?" />
+      <meta
+        property="og:description"
+        content="Are you looking at Jason Lengstorf or Kyle Shevlin? Use facial recognition to find out!"
+      />
+      <meta
+        property="og:image"
+        content="https://whichbeardisthis.com/which-beard-is-this.jpg"
+      />
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content="@jlengstorf" />
+      <meta name="twitter:title" content="Which beard is this?" />
+      <meta
+        name="twitter:description"
+        content="Are you looking at Jason Lengstorf or Kyle Shevlin? Use facial recognition to find out!"
+      />
+      <meta
+        name="twitter:image"
+        content="https://whichbeardisthis.com/which-beard-is-this.jpg"
+      />
+
       <link rel="stylesheet" href="https://use.typekit.net/nol4skp.css" />
     </Helmet>
     <Global

@@ -44,7 +44,10 @@ export default ({ loading, handleClick }) => (
   <StaticQuery
     query={graphql`
       {
-        allFile(filter: { relativePath: { glob: "examples/*.jpg" } }) {
+        allFile(
+          filter: { relativePath: { glob: "examples/*.jpg" } }
+          sort: { fields: relativePath }
+        ) {
           edges {
             node {
               id
