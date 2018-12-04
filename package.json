@@ -1,0 +1,48 @@
+{
+  "name": "whichbeardisthis",
+  "description": "Facial recognition in Gatsby with face-api.js",
+  "version": "1.0.0",
+  "author": "Jason Lengstorf <jason@gatsbyjs.com>",
+  "contributors": [
+    "Gant Laborde <gantman@gmail.com>"
+  ],
+  "dependencies": {
+    "@emotion/core": "^10.0.1",
+    "@emotion/styled": "^10.0.1",
+    "face-api.js": "^0.16.1",
+    "gatsby": "^2.0.60",
+    "gatsby-image": "^2.0.22",
+    "gatsby-plugin-manifest": "^2.0.11",
+    "gatsby-plugin-offline": "^2.0.18",
+    "gatsby-plugin-react-helmet": "^3.0.4",
+    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-source-filesystem": "^2.0.10",
+    "gatsby-transformer-sharp": "^2.1.9",
+    "gatsby-transformer-sqip": "^2.0.9",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-dropzone": "^7.0.1",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby",
+    "face-api.js",
+    "facial recognition",
+    "machine learning"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/gatsby-with-apollo"
+  }
+}
